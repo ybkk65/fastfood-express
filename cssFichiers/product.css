@@ -1,0 +1,51 @@
+#card-container {
+    margin-top: 200px;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap; /* Permettre le passage à la ligne lorsque cela est nécessaire */
+    justify-content :space-between; /* Espacement égal entre les cartes */
+}
+
+.cardCategorie {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: calc(26% - 20px); /* Calculer la largeur pour trois cartes par ligne */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.cardCategorie:hover {
+    transform: scale(1.05);
+}
+
+.imgcard {
+    width: 100%; /* Réajuster la taille de l'image pour s'adapter à la largeur de la carte */
+    height: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+p {
+    margin-top: 5px;
+    color: #555;
+}
+
+/* Media queries pour les écrans plus petits */
+@media screen and (max-width: 992px) {
+    .cardCategorie {
+        width: calc(40% - 20px); /* Deux cartes par ligne sur les écrans plus petits */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cardCategorie {
+        width: 100%; /* Une carte par ligne sur les écrans très petits */
+    }
+}

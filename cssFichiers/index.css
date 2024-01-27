@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+}
+
+header{
+    height: 90px;
+    width:100%;
+    background-color: #c62d2d;
+
+} 
+
+.logo{
+    width: 120px;
+    position: absolute;
+    left: 50%;
+    margin-top: 40px;
+    transform: translate(-50%, -50%);
+} 
+
+nav{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.choix{
+    display: flex;
+    justify-content: right;
+    padding: 25px;
+    text-decoration: none;
+
+} 
+
+.panier{
+    width: 25px;
+    margin-top: -5px;
+    padding: 0 10px;
+    
+} 
+
+#login {
+    color:white;
+    
+} 
+
+#logout{
+    color: white;
+    margin-left:10px;
+}
+
+
+
+
+.nav-item-dropdown {
+    position: relative;
+    
+  }
+  
+  .nav-item-dropdown:hover > .dropdown-menu {
+    display: block;
+    opacity: 1;
+  }
+  
+  .dropdown-trigger {
+    position: relative;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dropdown-trigger:focus + .dropdown-menu {
+    display: block;
+    opacity: 1;
+  }
+  
+  .dropdown-trigger::after {
+    content: "›";
+    position: absolute;
+    color: #ED3E44;
+    font-size: 24px;
+    font-weight: bold;
+    transform: rotate(90deg);
+    top: -5px;
+    right: -15px;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu {
+    background-color: #ED3E44;
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    top: 2.5rem;
+    right: -10px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease; 
+    width: 160px;
+  }
+  
+  .dropdown-menu a {
+    color: #fff;
+  }
+  
+  .dropdown-menu-item {
+    cursor: pointer;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .dropdown-menu-item:hover {
+    background-color: darken(#ED3E44, 5%);
+  }
+
+  .nav-container a {
+    text-decoration: none;
+    
+  } 
+
+  .nav-container ul, .nav-container li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  } 
+
+  .nav-container{
+    margin-right: 20px;
+  } 
+
+ 
+.dropdown-menu {
+    padding: 15px;
+  }
+  
+
+  .dropdown-menu-item:not(:last-child) {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  .dropdown-menu-item:last-child{
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  #foodForm{
+    margin-left: 290px;
+    margin-top: -500px;
+  }
+
+  .ingre{
+    margin-left: 290px;
+    margin-top: -500px;
+  }
+  #foodFor{
+    margin-left: 290px;
+   
+  } 
+
+
+  
