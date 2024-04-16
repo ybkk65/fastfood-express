@@ -1,14 +1,15 @@
 <?php
-session_start();
 
+require_once './connexion.php';
 require './abstracts/BurgerSchema.php';
 require './classes/Burger.php';
 require './classes/Calorie.php';
 require './classes/BurgerIngredients.php';
 
-require './connexion.php';
 
-$availableRoutes = ['contact', 'admin', 'login', 'register',  'user','logout','homepage','categorie','product','ingredients','create_product'];
+
+
+$availableRoutes = ['contact', 'admin', 'login', 'register',  'user','logout','homepage','categorie','product','ingredients','create_product','dispo_product','dispo_ingredients','panier','commande'];
 
 $route = 'homepage';
 if (isset($_GET['page']) and in_array($_GET['page'], $availableRoutes)) {

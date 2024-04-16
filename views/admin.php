@@ -33,6 +33,12 @@
             <div class='lien' >
                 <a id='2'href='?page=ingredients' >Ajouter ingredients  </a> <br>
             </div>
+            <div class='lien' >
+                <a id='2'href='?page=dispo_product' >produit disponible   </a> <br>
+            </div>
+            <div class='lien' >
+                <a id='2'href='?page=dispo_ingredients' >ingredients disponible   </a> <br>
+            </div>
         </section>
     </section>
 

@@ -8,9 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-
+<main>
 <h1 class='titreAcc'>Bienvenue Chez FastFood EXPRESS</h1>
-    
+
+<img class= "fonds" src="images/fond.png" alt="">
+</main>
 </body>
 </html>
 

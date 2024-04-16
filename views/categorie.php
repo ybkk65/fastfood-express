@@ -1,10 +1,5 @@
 
 
-<head>
-<link rel="stylesheet" href="cssFichiers/admin.css">
-<link rel="stylesheet" href="cssFichiers/index.css">
-</head>
-
 
 <section id="interior">
 <div class='categorie'>   

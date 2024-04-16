@@ -1,6 +1,6 @@
 <?php
 namespace projetfullstack1\classes;
-require 'connexion.php';
+
 
 
 use projetfullstack1\abstracts\BurgerSchema;
@@ -65,26 +65,3 @@ class Burger extends BurgerSchema {
    
 }
 
-/*
-
-$burger = new Burger();
-
-$buns = new BurgerIngredients('Buns', 1, 50, 0, 100);
-$steak = new BurgerIngredients('Steak', 20, 0, 26, 100);
-$cheese = new BurgerIngredients('Cheese', 33,1,25,88);
-
-$burger->addIngredient($buns, 1);
-$burger->addIngredient($steak, 1);
-$burger->addIngredient($cheese, 1);
-
-
-$totalNutriments = $burger->calculerTotalNutriments();
-
-echo "Total Lipides: " . $totalNutriments['totalLipides'] . "g\n";
-echo "Total Glucides: " . $totalNutriments['totalGlucides'] . "g\n";
-echo "Total Proteines: " . $totalNutriments['totalProteines'] . "g\n";
-echo "Total Calories: " . $totalNutriments['totalCalories'] . " cal\n";
-$totalPoids = $burger->poidsBurger();
-echo "Total Poids du Burger: " . $totalPoids . "g\n";
-
-*/

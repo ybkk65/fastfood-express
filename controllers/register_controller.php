@@ -1,4 +1,8 @@
 <?php 
+
+if (!isset($_POST['token'])) {
+    $_SESSION['token'] = bin2hex(random_bytes(32));
+}
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['name'], $_POST['email'], $_POST['password'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
